@@ -1,0 +1,68 @@
+# Ölü adam anahtarı. Her gün çalışır; deadman.json yoksa hiçbir şey yapmaz.
+# Kurulum: docs/08-olu-adam-anahtari.md
+# Check-in: Actions > deadman > Run workflow > checkin (GitHub mobil uygulamasından da olur).
+name: deadman
+
+on:
+  schedule:
+    - cron: "23 6 * * *"
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Ne yapılsın?"
+        type: choice
+        default: checkin
+        options: [checkin, status, preflight, dry-run, run]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deadman
+  cancel-in-progress: false
+
+jobs:
+  deadman:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: deadman
+        env:
+          ACTION: ${{ github.event_name == 'schedule' && 'run' || inputs.action }}
+          DEADMAN_ARMED: ${{ vars.DEADMAN_ARMED }}
+          DEADMAN_WEBHOOK_URL: ${{ secrets.DEADMAN_WEBHOOK_URL }}
+          DIEDIGITAL_PROFILE_JSON: ${{ secrets.DIEDIGITAL_PROFILE_JSON }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          GH_WIPE_TOKEN: ${{ secrets.GH_WIPE_TOKEN }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
+          REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+        run: |
+          if [ ! -f deadman.json ]; then
+            echo "::notice::deadman.json yok; ölü adam anahtarı kurulmamış, atlanıyor."
+            exit 0
+          fi
+          python -m diedigital deadman "$ACTION" --config deadman.json
+
+      - name: Durumu kaydet
+        if: always()
+        run: |
+          [ -f .deadman/state.json ] || exit 0
+          git config user.name "deadman"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .deadman/state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "deadman: durum güncellendi"
+          git push || echo "::warning::Durum kaydedilemedi (depo silinmiş olabilir)."

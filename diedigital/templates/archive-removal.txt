@@ -1,0 +1,17 @@
+Subject: Request to remove archived pages containing my personal data
+
+Hello,
+
+I am asking you to remove the archived captures of the following URLs from the Wayback Machine and to exclude them from future crawls. These pages contain my personal information (name, contact details and/or photographs), and their continued availability affects my privacy.
+
+$urls
+
+Name: $name
+Contact email: $email
+
+Where the pages belong to a site I own or control, I am the owner of that site and can verify it on request. Where they are third-party pages, I am the person named on them and request removal under Article 17 GDPR.
+
+Thank you for your help.
+
+Date: $date
+$name

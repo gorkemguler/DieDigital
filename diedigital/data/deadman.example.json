@@ -1,0 +1,61 @@
+{
+  "_comment": "Ayrıntılar: docs/08-olu-adam-anahtari.md. '_' ile başlayan alanlar yok sayılır. DEADMAN_ARMED=true olmadıkça hiçbir şey silinmez.",
+
+  "checkin_interval_days": 30,
+  "trigger_at": null,
+  "grace_days": 7,
+  "warn_every_hours": 24,
+  "preflight_every_days": 7,
+  "max_runtime_minutes": 120,
+
+  "notify": {
+    "emails": ["sen@ornek.com"],
+    "webhook_env": "DEADMAN_WEBHOOK_URL",
+    "webhook_format": "text"
+  },
+
+  "actions": [
+    {
+      "id": "dilekceler",
+      "type": "send_letters",
+      "inventory": "accounts.json",
+      "_comment": "accounts.json'da privacy_email alanı dolu her açık hesaba KVKK/GDPR silme dilekçesi gönderir."
+    },
+    {
+      "id": "reddit",
+      "type": "reddit_wipe",
+      "enabled": false,
+      "kinds": ["comments", "submitted"],
+      "overwrite_text": ".",
+      "ids_files": []
+    },
+    {
+      "id": "mastodon",
+      "type": "mastodon_wipe",
+      "enabled": false,
+      "instance": "https://mastodon.social"
+    },
+    {
+      "id": "github",
+      "type": "github_wipe",
+      "include": ["*"],
+      "exclude": [],
+      "gists": true,
+      "scrub_profile": true
+    },
+    {
+      "id": "veda",
+      "type": "email",
+      "enabled": false,
+      "to": ["guvendigin-kisi@ornek.com"],
+      "subject": "Planladığım gibi",
+      "body": "Bu e-posta önceden ayarlanmıştı. Dijital izlerimi silme süreci başladı; endişelenme."
+    },
+    {
+      "id": "kendini-sil",
+      "type": "self_destruct",
+      "delay_days": 1,
+      "_comment": "Diğer tüm eylemler bittikten (ve en az 1 gün geçtikten) sonra bu depoyu siler."
+    }
+  ]
+}

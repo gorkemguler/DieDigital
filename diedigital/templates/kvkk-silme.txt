@@ -1,0 +1,32 @@
+Konu: 6698 sayılı KVKK md. 11 kapsamında kişisel verilerimin silinmesi talebi
+
+Sayın Veri Sorumlusu / KVKK Başvuru Birimi,
+
+6698 sayılı Kişisel Verilerin Korunması Kanunu'nun ("KVKK") 11. maddesi ve Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ uyarınca, $service bünyesinde işlenen kişisel verilerime ilişkin taleplerimi aşağıda iletiyorum.
+
+BAŞVURU SAHİBİ
+Ad Soyad: $name
+T.C. Kimlik No: $national_id
+Tebligata esas adres: $address
+E-posta: $email
+Telefon: $phone
+Hesap e-postası: $account_email
+Kullanıcı adı: $username
+
+SİZDE KAYITLI OLABİLECEK TANIMLAYICILARIM
+$identifiers
+
+TALEPLERİM
+1. Hakkımda işlediğiniz tüm kişisel verilerin KVKK md. 7 ve Kişisel Verilerin Silinmesi, Yok Edilmesi veya Anonim Hale Getirilmesi Hakkında Yönetmelik uyarınca silinmesi veya yok edilmesi; adıma açılmış bir üyelik/hesap varsa kalıcı olarak kapatılması,
+2. Kişisel verilerimin aktarıldığı üçüncü kişilere bu silme işleminin bildirilmesi (KVKK md. 11/1-f),
+3. Verilerimin pazarlama, profilleme ve reklam amacıyla işlenmesine derhal son verilmesi; ticari elektronik ileti onaylarımın geri alınması,
+4. Kanuni bir saklama yükümlülüğü nedeniyle silinemeyen veri varsa, hangi verinin hangi hukuki sebebe dayanılarak ve ne kadar süreyle saklanacağının tarafıma yazılı olarak bildirilmesi; bu süre sonunda verilerin silinmesi.
+
+KVKK md. 13 uyarınca başvurumun en kısa sürede ve en geç otuz (30) gün içinde ücretsiz olarak sonuçlandırılmasını ve sonucun yukarıdaki e-posta adresime yazılı olarak bildirilmesini rica ederim. Süresi içinde cevap verilmemesi veya cevabın yetersiz bulunması hâlinde KVKK md. 14 uyarınca Kişisel Verileri Koruma Kurulu'na şikâyet hakkımı saklı tutarım.
+
+Bu başvuru, sisteminizde kayıtlı e-posta adresim ($account_email) üzerinden iletilmektedir.
+
+Saygılarımla,
+
+Tarih: $date
+$name

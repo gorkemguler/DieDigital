@@ -1,0 +1,24 @@
+Konu: Cevapsız kalan KVKK silme başvurum hakkında hatırlatma
+
+Sayın Veri Sorumlusu / KVKK Başvuru Birimi,
+
+$request_date tarihinde 6698 sayılı KVKK'nın 11. maddesi kapsamında, $service bünyesinde işlenen kişisel verilerimin silinmesi talebiyle başvuruda bulundum. KVKK md. 13'te öngörülen otuz (30) günlük süre dolmasına rağmen başvurum sonuçlandırılmamış ya da tarafıma yeterli bir cevap verilmemiştir.
+
+BAŞVURU SAHİBİ
+Ad Soyad: $name
+T.C. Kimlik No: $national_id
+E-posta: $email
+Hesap e-postası: $account_email
+Kullanıcı adı: $username
+
+TANIMLAYICILARIM
+$identifiers
+
+Önceki başvurumdaki taleplerimi aynen tekrar ediyor; kişisel verilerimin silinmesini, aktarıldığı üçüncü kişilere bildirilmesini ve sonucun tarafıma yazılı olarak iletilmesini talep ediyorum.
+
+Bu yazıya makul bir süre içinde cevap verilmemesi hâlinde, KVKK md. 14 uyarınca Kişisel Verileri Koruma Kurulu'na şikâyette bulunacağımı bilgilerinize sunarım.
+
+Saygılarımla,
+
+Tarih: $date
+$name

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diedigital"
+version = "1.0.0"
+description = "Dijital ayak izini bul, temizle ve zamanı gelince kendiliğinden sil."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+diedigital = "diedigital.cli:main"
+
+[tool.setuptools]
+packages = ["diedigital", "diedigital.actions"]
+
+[tool.setuptools.package-data]
+diedigital = ["data/*.json", "templates/*.txt"]

@@ -1,0 +1,23 @@
+Subject: Follow-up: unanswered GDPR erasure request
+
+Dear Data Protection Officer / Privacy Team,
+
+On $request_date I asked $service to erase all personal data concerning me under Article 17 GDPR. The one-month deadline set by Article 12(3) has passed and I have not received a satisfactory answer.
+
+DATA SUBJECT
+Name: $name
+Contact email: $email
+Account email: $account_email
+Username: $username
+
+IDENTIFIERS
+$identifiers
+
+I repeat my original requests: erase all of my personal data, notify any recipients of the erasure (Article 19), and confirm completion in writing.
+
+If I do not hear from you within 14 days, I will lodge a complaint with the competent supervisory authority under Article 77 GDPR without further notice.
+
+Kind regards,
+
+Date: $date
+$name

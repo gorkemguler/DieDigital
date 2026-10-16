@@ -1,0 +1,30 @@
+Subject: Erasure request under Article 17 GDPR
+
+Dear Data Protection Officer / Privacy Team,
+
+I am writing to exercise my rights under the General Data Protection Regulation (EU) 2016/679 ("GDPR") regarding the personal data that $service processes about me.
+
+DATA SUBJECT
+Name: $name
+Contact email: $email
+Postal address: $address
+Account email: $account_email
+Username: $username
+
+IDENTIFIERS YOU MAY HOLD ABOUT ME
+$identifiers
+
+MY REQUESTS
+1. Erase all personal data concerning me without undue delay (Article 17(1)) and permanently close any account associated with the identifiers above.
+2. Notify every recipient to whom my personal data has been disclosed of this erasure (Article 19). Where you have made my data public, take reasonable steps to inform other controllers that are processing it (Article 17(2)).
+3. Stop processing my personal data for direct marketing, profiling and advertising (Article 21(2) and 21(3)), effective immediately.
+4. If you believe any data must be retained to comply with a legal obligation, tell me which data, on what legal basis and for how long, and erase it as soon as that period ends.
+
+Under Article 12(3) you must respond within one month of receiving this request. Please confirm in writing once the erasure is complete. If I do not receive a satisfactory response, I will lodge a complaint with the competent supervisory authority (Article 77).
+
+This request is sent from the email address registered with my account ($account_email). Please do not ask for more personal data than is strictly necessary to verify my identity (Article 12(6)).
+
+Kind regards,
+
+Date: $date
+$name

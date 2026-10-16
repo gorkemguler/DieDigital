@@ -1,0 +1,18 @@
+# Kişisel veriler. Özel (private) kopyanda ölü adam anahtarı için envanteri
+# commit'lemen gerekirse: git add -f accounts.json
+profile.json
+accounts.json
+letters/
+exports/
+*.csv
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/

@@ -1,0 +1,37 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "service": "Trendyol",
+      "catalog_id": "trendyol",
+      "url": "https://www.trendyol.com",
+      "username": null,
+      "email": "iletisim@ornek.com",
+      "privacy_email": "Aydınlatma Metni'ndeki KVKK başvuru adresi",
+      "jurisdiction": "tr",
+      "status": "active",
+      "notes": null,
+      "source": "manual",
+      "requested_at": null,
+      "history": [{"at": "2026-01-01T00:00:00Z", "status": "active"}]
+    },
+    {
+      "id": 2,
+      "service": "Reddit",
+      "catalog_id": "reddit",
+      "url": "https://www.reddit.com",
+      "username": "kullanici_adim",
+      "email": null,
+      "privacy_email": null,
+      "jurisdiction": "eu",
+      "status": "wiped",
+      "notes": "İçerik silindi, hesabı kapatmak kaldı",
+      "source": "csv:bitwarden.csv",
+      "requested_at": null,
+      "history": [
+        {"at": "2026-01-01T00:00:00Z", "status": "active"},
+        {"at": "2026-01-05T00:00:00Z", "status": "wiped"}
+      ]
+    }
+  ]
+}

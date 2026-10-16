@@ -1,0 +1,11 @@
+{
+  "_comment": "profile.json olarak kopyala. Bu dosya .gitignore'da; asla herkese açık bir depoya koyma. GitHub Actions için içeriği DIEDIGITAL_PROFILE_JSON secret'ı olarak ekle.",
+  "name": "Ad Soyad",
+  "email": "iletisim@ornek.com",
+  "address": "Tebligat adresin (KVKK başvurusunda zorunlu)",
+  "phone": "+90 5xx xxx xx xx",
+  "national_id": "",
+  "emails": ["eski-adresim@ornek.com"],
+  "phones": [],
+  "usernames": ["kullanici_adim", "eski_takma_adim"]
+}
