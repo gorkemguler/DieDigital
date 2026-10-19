@@ -116,7 +116,7 @@ def cmd_inv_overdue(args) -> int:
     for a in late:
         print(f"#{a['id']} {a['service']} — talep: {a['requested_at']}")
         print(f"   hatırlatma: diedigital letters send --account {a['id']} --reminder --execute")
-    print("\nHatırlatmaya da cevap gelmezse: KVKK Kurulu'na / ilgili denetim makamına şikâyet (docs/06-hukuki-haklar.md).")
+    print("\nHatırlatmaya da cevap gelmezse: KVKK Kurulu'na / ilgili denetim makamına şikâyet (docs/08-hukuki-haklar.md).")
     return 0
 
 

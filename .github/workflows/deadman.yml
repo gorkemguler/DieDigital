@@ -1,5 +1,5 @@
 # Ölü adam anahtarı. Her gün çalışır; deadman.json yoksa hiçbir şey yapmaz.
-# Kurulum: docs/08-olu-adam-anahtari.md
+# Kurulum: docs/10-olu-adam-anahtari.md
 # Check-in: Actions > deadman > Run workflow > checkin (GitHub mobil uygulamasından da olur).
 name: deadman
 

@@ -1,27 +1,46 @@
 # DieDigital
 
-İnternetten kaybolmak için adım adım bir rehber ve araç seti.
+**İnternetten tamamen kaybolma rehberi.**
 
-Hesaplarını bul, verini yedekle, içeriğini temizle, hesaplarını kapat, arama motorlarından ve veri simsarlarından düş, şirketlere yasal silme taleplerini gönder. Sonra bir **ölü adam anahtarı** kur: belirlediğin süre boyunca check-in yapmazsan ya da belirlediğin tarih geldiğinde kalan her şeyi siler ve en son kendini, yani bu depoyu da siler.
+Hesaplarını bulmaktan son e-posta adresini kapatmaya, arama motorlarından düşmekten sokak görüntülerinde evini bulanıklaştırmaya, arkadaşlarının paylaştığı fotoğraflardan şirketlerin elindeki veriye kadar internetteki izlerini adım adım silmenin ve bundan sonra iz bırakmadan yaşamanın yolu. İstersen sonunda, belirlediğin bir zamanda geri kalan her şeyi kendiliğinden silen bir **ölü adam anahtarı** da kurarsın.
+
+Teknik bilgi gerekmez; her adım elle yapılabilir. Türkiye'deki hizmetler, KVKK ve Türk hukuku ayrıca ele alınır.
+
+## Nereden başlamalı?
+
+1. [**Başlarken**](docs/00-baslarken.md)'i oku: ne kadar kaybolmak istediğini (görünmez / hesapsız / tam kopuş) ve kimden saklandığını seç.
+2. Belirli bir kişiden saklanıyorsan önce [**Takip, taciz, şiddet**](docs/12-takip-taciz-siddet.md) bölümünü oku.
+3. [**Kontrol listesini**](docs/ek-a-kontrol-listesi.md) kendine kopyala ve bölümleri sırayla izle.
 
 ## Rehber
 
-| | Bölüm | |
+| # | Bölüm | Ne |
 |---|---|---|
-| 0 | [Başlarken](docs/00-baslarken.md) | Hedef, gerçekçi beklentiler, doğru sıra |
-| 1 | [Envanter ve yedek](docs/01-envanter-ve-yedek.md) | Unuttuğun hesapları bul, verini indir |
-| 2 | [Hesapları silmek](docs/02-hesaplari-silmek.md) | Platform platform silme yolları, Türkiye'deki hizmetler, İYS |
-| 3 | [İçerik temizliği](docs/03-icerik-temizligi.md) | Hesap kapanmadan önce gönderi, yorum ve fotoğraflar |
-| 4 | [Arama motorları ve arşivler](docs/04-arama-motorlari-ve-arsivler.md) | Google, Bing, Yandex, Wayback Machine, 5651 |
-| 5 | [Veri simsarları ve rehberler](docs/05-veri-simsarlari-ve-rehberler.md) | Getcontact, Truecaller, kişi arama siteleri, yüz arama |
-| 6 | [Hukuki haklar](docs/06-hukuki-haklar.md) | KVKK ve GDPR silme talepleri, süreler, şikâyet |
-| 7 | [Son adımlar](docs/07-son-adimlar.md) | E-posta, telefon, alan adı, bulut, cihazlar |
-| 8 | [Ölü adam anahtarı](docs/08-olu-adam-anahtari.md) | Zamanı gelince kendiliğinden silinmek |
-| 9 | [Sonrası](docs/09-sonrasi.md) | Takip ve yeni alışkanlıklar |
+| 0 | [Başlarken](docs/00-baslarken.md) | Seviyeler, kimden saklandığın, neler silinmez, altın kurallar, yol haritası |
+| 1 | [Envanter ve yedek](docs/01-envanter-ve-yedek.md) | İz üretmeyi durdur, unuttuğun hesapları bul, verini indir |
+| 2 | [İçerik temizliği](docs/02-icerik-temizligi.md) | Gönderiler, fotoğraflar, yorumlar, değerlendirmeler; platform platform |
+| 3 | [Hesapları silmek](docs/03-hesaplari-silmek.md) | Büyük platformlar, Türkiye'deki hizmetler, İYS, sahipsiz hesaplar |
+| 4 | [Arama motorları ve arşivler](docs/04-arama-motorlari-ve-arsivler.md) | Ne aranır, Google/Bing/Yandex kaldırma araçları, Wayback Machine, 5651 |
+| 5 | [Veri simsarları ve rehberler](docs/05-veri-simsarlari-ve-rehberler.md) | Getcontact, Truecaller, yüklenen rehberler, sızıntı panelleri, yüz arama |
+| 6 | [Başkalarının elindeki izler](docs/06-baskalarinin-elindeki-izler.md) | Arkadaşlar, aile, işyeri, okul, etkinlikler, haberler, Vikipedi, soy ağacı |
+| 7 | [Gerçek dünyaya bağlı izler](docs/07-gercek-dunya-izleri.md) | Adres, Street View, konum, Wi-Fi, akıllı cihazlar, sağlık, DNA, plaka |
+| 8 | [Hukuki haklar](docs/08-hukuki-haklar.md) | KVKK, GDPR, 5651; adım adım silme talebi ve şikâyet |
+| 9 | [Son adımlar](docs/09-son-adimlar.md) | Alan adı, e-posta, telefon, bulut, cihazlar, para |
+| 10 | [Ölü adam anahtarı](docs/10-olu-adam-anahtari.md) | Platformların kendi anahtarları, zamanlanmış dilekçeler, dijital vasi, otomatik anahtar |
+| 11 | [Görünmez yaşamak](docs/11-gorunmez-yasamak.md) | Kimlik katmanları, takma ad e-posta, cihaz, tarayıcı, VPN/Tor, ödeme, tam kopuş |
+| 12 | [Takip, taciz, şiddet](docs/12-takip-taciz-siddet.md) | Biri seni arıyorsa: önce kanıt, sonra güvenlik, en son silme |
+| 13 | [Takip ve bakım](docs/13-takip-ve-bakim.md) | Silinenlerin silinmiş kalması |
+| A | [Kontrol listesi](docs/ek-a-kontrol-listesi.md) | Tüm rehberin işaretlenebilir özeti |
+| B | [Dilekçe ve mesaj örnekleri](docs/ek-b-dilekce-ornekleri.md) | KVKK, GDPR, arama motoru, KVKK Kurulu şikâyeti, haber sitesi, rica mesajları |
+| C | [Araçlar](docs/ek-c-araclar.md) | İsteğe bağlı komut satırı araçları |
 
-## Araçlar
+## Gerçekçi beklenti
 
-Python 3.10+, ek bağımlılık yok. Ayrıntılı kullanım: [docs/araclar.md](docs/araclar.md).
+Sıfır iz mümkün değil: resmî kayıtlar, yasal saklama süresi olan kayıtlar, başkalarının cihazlarındakiler ve sızıntılar silinmez. Bu rehberin hedefi şu: **aranınca çıkmamak, bilinen her yerde silinmiş olmak, silinemeyen yerlerde yasal talebini iletmiş olmak ve yeni iz üretmemek.**
+
+## İsteğe bağlı araçlar
+
+Uzun işleri hızlandırmak için depoda bağımlılıksız bir Python aracı var (Python 3.10+). Rehberi izlemek için gerekli değildir.
 
 ```bash
 git clone https://github.com/gorkemguler/DieDigital.git && cd DieDigital
@@ -30,64 +49,22 @@ python3 -m diedigital --help
 
 | Komut | Ne yapar |
 |---|---|
-| `inventory` | Hesap envanteri; parola yöneticisi CSV'sinden içe aktarma (parolalar okunmaz), Markdown kontrol listesi |
+| `inventory` | Hesap envanteri; parola yöneticisi CSV'sinden içe aktarma (parolalar okunmaz), işaretlenebilir rapor |
 | `discover imap` | E-posta kutusundaki "hoş geldin / doğrula" mesajlarından unuttuğun hesapları bulur |
-| `footprint` | Kullanıcı adının hangi sitelerde olduğu, Gravatar ve sızıntı kontrolü, arama motoru kontrol listesi |
-| `catalog` | Bilinen hizmetlerin silme ve yedek bağlantıları, bekleme süreleri, tuzakları |
-| `letters` | KVKK / GDPR silme dilekçeleri, hatırlatmalar, Wayback Machine kaldırma talebi; e-postayla gönderim |
+| `footprint` | Kullanıcı adı taraması, Gravatar ve sızıntı kontrolü, arama motoru kontrol listesi |
+| `catalog` | Bilinen hizmetlerin silme ve yedek bağlantıları, bekleme süreleri |
+| `letters` | KVKK / GDPR dilekçelerini doldurur ve e-postayla gönderir; hatırlatmalar |
 | `wipe` | GitHub, Reddit ve Mastodon içeriklerini toplu siler |
-| `deadman` | Ölü adam anahtarı: uyarır, tetiklenir, eylemleri sırayla çalıştırır, en son depoyu siler |
+| `deadman` | Ölü adam anahtarı: uyarır, tetiklenir, eylemleri sırayla çalıştırır, en son kendi deposunu siler |
 
-### Hızlı başlangıç
-
-```bash
-# 1. Hesaplarını topla
-diedigital inventory import sifreler.csv
-IMAP_PASSWORD=... diedigital discover imap --host imap.gmail.com --user sen@gmail.com --add
-diedigital inventory report --out envanter.md
-
-# 2. Ne görünüyor?
-diedigital footprint dorks --name "Ad Soyad" --email sen@ornek.com --out arama.md
-diedigital footprint username takma_adim
-
-# 3. Temizle (önce deneme, sonra --execute)
-diedigital wipe reddit
-diedigital wipe github --scrub-profile
-
-# 4. Silme dilekçeleri
-cp examples/profile.example.json profile.json
-diedigital letters bulk
-diedigital letters bulk --execute
-
-# 5. Ölü adam anahtarı
-diedigital deadman init
-diedigital deadman dry-run
-```
-
-## Ölü adam anahtarı kısaca
-
-- İki mod: **check-in** (ör. 30 gün sessiz kalırsan) veya **sabit tarih** (ör. 1 Haziran 2027).
-- Tetiklemeden önce `grace_days` boyunca her gün e-posta / telefon bildirimiyle uyarır.
-- Tetiklenince: kalan hesaplara KVKK/GDPR dilekçeleri, GitHub/Reddit/Mastodon temizliği, istediğin komutlar, son olarak bu deponun silinmesi.
-- Yarım kalan işler ertesi gün kaldığı yerden devam eder. Depoyu silme, diğer her şey bittikten sonra çalışır.
-- GitHub Actions'ta günde bir çalışır; check-in GitHub mobil uygulamasından bir dokunuşla yapılır.
-- `DEADMAN_ARMED=true` verilmedikçe hiçbir şey silinmez.
-
-Kurulum: [docs/08-olu-adam-anahtari.md](docs/08-olu-adam-anahtari.md).
-
-## Güvenlik
-
-- Silen her komut varsayılan olarak deneme modundadır.
-- `profile.json`, `accounts.json` ve CSV dışa aktarımları `.gitignore`'dadır. Ölü adam anahtarını kişisel bilgilerinle çalıştıracaksan bu depoyu fork'lama; **özel (private)** bir kopya oluştur.
-- Token ve şifreler sadece ortam değişkenlerinden okunur, hiçbir dosyaya yazılmaz.
-- Araçlar sadece senin kendi hesaplarında, kendi kimlik bilgilerinle çalışır.
+Silen her komut varsayılan olarak deneme modundadır. Ayrıntılar: [Ek C](docs/ek-c-araclar.md).
 
 ## Katkı
 
-Silme bağlantıları sık değişir. Eskimiş bir bağlantı ya da eksik bir hizmet görürsen [`diedigital/data/services.json`](diedigital/data/services.json)'u güncelleyen bir PR aç. Testler: `python3 -m unittest discover -s tests`.
+Silme bağlantıları ve menü adları sık değişir. Eskimiş bir bilgi ya da eksik bir hizmet görürsen ilgili bölümü veya [`diedigital/data/services.json`](diedigital/data/services.json)'u güncelleyen bir PR aç.
 
 ## Uyarı
 
-Bu rehber hukuki danışmanlık değildir. Silinen hesaplar ve veriler geri gelmez; her adımı yapmadan önce yedeğini al ve ne yaptığını oku.
+Bu rehber hukuki danışmanlık değildir ve yasal yükümlülüklerden kaçmanın rehberi değildir. Silinen hesaplar ve veriler geri gelmez; her adımdan önce yedeğini al ve ne yaptığını oku.
 
 Lisans: MIT

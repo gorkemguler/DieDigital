@@ -1,12 +1,16 @@
-# 8. Ölü adam anahtarı: belirlediğin zamanda kendiliğinden silinmek
+# 10. Ölü adam anahtarı: belirlediğin zamanda kendiliğinden silinmek
 
-Ölü adam anahtarı, belirli bir süre boyunca "hâlâ buradayım" demezsen (check-in) ya da belirlediğin bir tarih geldiğinde, kalan silme işlerini senin yerine yapan bir zamanlayıcıdır. Son iş olarak kendini, yani bu depoyu da siler.
+Ölü adam anahtarı, belirli bir süre boyunca "hâlâ buradayım" demezsen (check-in) ya da belirlediğin bir tarih geldiğinde, kalan silme işlerini senin yerine yapan bir düzenektir. Üç işe yarar:
 
-İki katman kur. Biri bozulursa diğeri çalışır.
+- **Planlı kaybolma:** "Şu tarihte her şey silinsin" demek ve o tarihe kadar hayatına devam etmek.
+- **Ölüm veya ağır hastalık:** Sen yokken hesaplarının yıllarca açık kalmasını, ele geçirilmesini ya da başkalarınca kullanılmasını önlemek.
+- **Unutulanlar için güvence:** Elle silemediğin, unuttuğun ya da cevap vermeyen yerlere yasal taleplerin yine de gitmesi.
+
+Katmanlar halinde kur; biri bozulursa diğeri çalışır. Hiçbiri için yazılım bilmen gerekmiyor; sadece üçüncü katman bilgisayar başında kurulum ister.
 
 ## Katman 1: Platformların kendi anahtarları
 
-Bunlar şirketlerin kendi sunucularında çalışır; bu araç bozulsa da işler.
+Bunlar şirketlerin kendi sunucularında çalışır; hiçbir kurulum gerektirmez ve diğer katmanlar bozulsa da işler.
 
 | Hizmet | Ayar | Ne yapar |
 |---|---|---|
@@ -14,10 +18,39 @@ Bunlar şirketlerin kendi sunucularında çalışır; bu araç bozulsa da işler
 | Telegram | Ayarlar > Gizlilik ve Güvenlik > "Şu süre boyunca uzaktaysam" | Belirlediğin süre boyunca giriş yapmazsan hesabı tüm mesajlarıyla siler. |
 | Facebook | Ayarlar > Anma ayarları | Vefat bildirildiğinde hesabın anma hesabına dönüşmek yerine silinmesini seçebilirsin. |
 | Mastodon | Tercihler > Otomatik gönderi silme | Belirli yaştan eski gönderileri sürekli siler. |
+| Apple | Ayarlar > [Adın] > Oturum Açma ve Güvenlik > Eski Durum İletişim Kişisi | Silmez; vefatından sonra seçtiğin kişiye verilerine erişim hakkı verir. Hesabı o kişi kapatabilir. |
 
 Ayrıca Google ve Microsoft, iki yıl boyunca kullanılmayan kişisel hesapları politika gereği silebiliyor. Bunu bir güvence olarak değil, ek bir olasılık olarak gör.
 
-## Katman 2: DieDigital ölü adam anahtarı
+## Katman 2: Araçsız yöntemler
+
+### Zamanlanmış e-postalar (sabit tarih)
+
+Gmail'de "Gönderme zamanını planla", Outlook'ta "Gönderimi geciktir" ile e-postaları ileri bir tarihe zamanlayabilirsin.
+
+1. [Ek B](ek-b-dilekce-ornekleri.md)'deki KVKK/GDPR silme dilekçesini, henüz silemediğin ya da silinmesini o tarihe bıraktığın her şirket için doldur.
+2. Her birini kayıtlı e-posta adresinden, aynı ileri tarihe zamanla.
+3. Güvendiğin kişilere gidecek mesajları (veda, talimat) da zamanla.
+
+Sınırları: Check-in yoktur; vazgeçersen zamanlanmış postaları kendin iptal etmelisin. E-posta hesabın o tarihten önce silinirse (ör. Etkin Olmayan Hesap Yöneticisi daha erken tetiklenirse) postalar gitmez; sıralamayı buna göre kur: önce zamanlanmış postalar, sonra hesabın silinmesi.
+
+### Güvendiğin bir kişi (dijital vasi)
+
+Bir kişiye mühürlü bir zarf ya da şifreli bir belge bırak:
+
+- Silinmesini istediğin hesapların listesi ve nasıl silineceği (bu rehberin ilgili bölümleri)
+- Hangi koşulda harekete geçeceği (vefat, belirli bir tarih, senden belirli bir süre haber alamaması)
+- Şifre vermek yerine, platformların **vefat eden kullanıcı** süreçlerini kullanmasını iste. Google, Facebook, Instagram, LinkedIn, X ve Apple'ın, yakınların vefat belgesiyle hesabın kapatılmasını isteyebildiği formları var; yardım sayfalarında "vefat eden kullanıcı" / "deceased" diye aratılır.
+- Parola yöneticilerinin **acil durum erişimi** özellikleri (ör. Bitwarden Acil Durum Erişimi), belirlediğin bekleme süresi sonunda güvendiğin kişiye erişim verir; sen o süre içinde reddetmezsen. Bu da kendi başına bir ölü adam anahtarıdır.
+
+### Üçüncü taraf "ölü adam anahtarı" hizmetleri
+
+Check-in yapmazsan önceden yazdığın e-postaları gönderen çevrimiçi hizmetler var. Kullanacaksan: içine şifre ya da kimlik bilgisi koyma, sadece talimat ve dilekçe metinleri koy; hizmetin kendisinin de kapanabileceğini hesaba kat.
+
+## Katman 3: DieDigital ölü adam anahtarı
+
+Bu depodaki araç, GitHub Actions'ta ya da kendi sunucunda her gün çalışan, check-in veya sabit tarihle tetiklenen ve son iş olarak kendi deposunu da silen bir anahtardır.
+
 
 ### Ne yapabilir?
 
@@ -97,11 +130,11 @@ Depo > Settings > Secrets and variables > Actions > **New repository secret**:
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `SMTP_FROM` | Bildirim ve dilekçe için evet | Gmail: `smtp.gmail.com`, `587`, adresin, uygulama şifresi |
 | `DIEDIGITAL_PROFILE_JSON` | `send_letters` için | `profile.json`'un tüm içeriği |
 | `GH_WIPE_TOKEN` | `github_wipe` / `self_destruct` için | Klasik token: `repo`, `delete_repo`, `gist`, `user` kapsamları. Süresini uzun tut; dolmadan önce ön kontrol uyarır. |
-| `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME`, `REDDIT_PASSWORD` | `reddit_wipe` için | [03](03-icerik-temizligi.md) |
-| `MASTODON_TOKEN` | `mastodon_wipe` için | [03](03-icerik-temizligi.md) |
+| `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME`, `REDDIT_PASSWORD` | `reddit_wipe` için | [2. bölüm](02-icerik-temizligi.md), [Ek C](ek-c-araclar.md) |
+| `MASTODON_TOKEN` | `mastodon_wipe` için | [Ek C](ek-c-araclar.md) |
 | `DEADMAN_WEBHOOK_URL` | İsteğe bağlı | Telefon bildirimi, ör. `https://ntfy.sh/uzun-rastgele-bir-konu-adi` (ntfy uygulamasında aynı konuya abone ol) |
 
-Dilekçeler, hizmetlere kayıtlı olduğun e-posta adresinden gitmeli ([06](06-hukuki-haklar.md)). Farklı hizmetler farklı adreslerle açıldıysa en çok kullanılanın SMTP'sini ver.
+Dilekçeler, hizmetlere kayıtlı olduğun e-posta adresinden gitmeli ([8. bölüm](08-hukuki-haklar.md)). Farklı hizmetler farklı adreslerle açıldıysa en çok kullanılanın SMTP'sini ver.
 
 ### 4. Gönder ve dene
 

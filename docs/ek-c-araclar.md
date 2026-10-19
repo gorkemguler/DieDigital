@@ -1,4 +1,6 @@
-# Araçlar
+# Ek C. Araçlar (isteğe bağlı)
+
+Rehberdeki her adım elle yapılabilir. Bu depodaki `diedigital` komut satırı aracı sadece uzun ve tekrarlı işleri hızlandırır: hesap envanteri, e-posta kutusunda hesap keşfi, ayak izi taraması, dilekçelerin toplu hazırlanıp gönderilmesi, GitHub/Reddit/Mastodon içeriklerinin toplu silinmesi ve ölü adam anahtarı.
 
 Python 3.10 veya üstü yeterli; başka bağımlılık yok.
 
@@ -102,7 +104,24 @@ diedigital deadman dry-run     # tetiklenmiş gibi çalıştır, hiçbir şey si
 diedigital deadman run [--armed]   # cron / GitHub Actions'ın çağırdığı komut
 ```
 
-Ayrıntılar: [08-olu-adam-anahtari.md](08-olu-adam-anahtari.md).
+Ayrıntılar: [10. bölüm](10-olu-adam-anahtari.md).
+
+## Kimlik bilgilerini almak
+
+**GitHub (`GH_WIPE_TOKEN`):** Settings > Developer settings > Personal access tokens > Tokens (classic) > Generate new token. Kapsamlar: `repo`, `delete_repo`, `gist`, `user`. Ölü adam anahtarında kullanacaksan süresini uzun tut.
+
+**Reddit (`REDDIT_*`):**
+
+1. https://www.reddit.com/prefs/apps > "create another app" > tür: **script**, redirect uri: `http://localhost:8080`
+2. Uygulama adının altındaki kısa kod `REDDIT_CLIENT_ID`, "secret" `REDDIT_CLIENT_SECRET`; kullanıcı adın ve parolan `REDDIT_USERNAME`, `REDDIT_PASSWORD`.
+3. İki adımlı doğrulama açıksa script uygulamalarıyla parola girişi çalışmayabilir; işlem süresince geçici olarak kapatman gerekebilir.
+4. 1000'den eski içerikler için https://www.reddit.com/settings/data-request ile verilerini iste; arşivdeki `comments.csv` ve `posts.csv` dosyalarını `--ids-file` ile ver.
+
+**Mastodon (`MASTODON_TOKEN`):** Tercihler > Geliştirme > Yeni uygulama; `read` ve `write:statuses` kapsamları yeterli. Mastodon silmeyi yavaşlatır (varsayılan: 30 dakikada 30 gönderi); büyük hesaplarda saatler sürer.
+
+**SMTP:** Gmail için iki adımlı doğrulamayı aç, Google Hesabı > Güvenlik > Uygulama şifreleri ile bir şifre oluştur: `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=587`, `SMTP_USER=adresin`, `SMTP_PASSWORD=uygulama-sifresi`.
+
+**IMAP:** Gmail için aynı uygulama şifresi, `--host imap.gmail.com`. Yandex: `imap.yandex.com` (Ayarlar > E-posta programları bölümünden IMAP'i aç). Microsoft kişisel hesaplarında parolayla IMAP girişi büyük ölçüde kapatıldı.
 
 ## Ortam değişkenleri
 

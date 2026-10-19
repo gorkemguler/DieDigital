@@ -1,5 +1,5 @@
 {
-  "_comment": "Ayrıntılar: docs/08-olu-adam-anahtari.md. '_' ile başlayan alanlar yok sayılır. DEADMAN_ARMED=true olmadıkça hiçbir şey silinmez.",
+  "_comment": "Ayrıntılar: docs/10-olu-adam-anahtari.md. '_' ile başlayan alanlar yok sayılır. DEADMAN_ARMED=true olmadıkça hiçbir şey silinmez.",
 
   "checkin_interval_days": 30,
   "trigger_at": null,
