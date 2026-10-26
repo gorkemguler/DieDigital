@@ -2,6 +2,8 @@
 
 **İnternetten tamamen kaybolma rehberi.**
 
+Türkçe · [English](README.en.md)
+
 Hesaplarını bulmaktan son e-posta adresini kapatmaya, arama motorlarından düşmekten sokak görüntülerinde evini bulanıklaştırmaya, arkadaşlarının paylaştığı fotoğraflardan şirketlerin elindeki veriye kadar internetteki izlerini adım adım silmenin ve bundan sonra iz bırakmadan yaşamanın yolu. İstersen sonunda, belirlediğin bir zamanda geri kalan her şeyi kendiliğinden silen bir **ölü adam anahtarı** da kurarsın.
 
 Teknik bilgi gerekmez; her adım elle yapılabilir. Türkiye'deki hizmetler, KVKK ve Türk hukuku ayrıca ele alınır.
