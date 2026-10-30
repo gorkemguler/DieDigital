@@ -117,6 +117,7 @@ def dork_queries(name: str | None = None, emails=(), usernames=(), phones=(), ci
             ("Sosyal medyada adın", f"{n} (site:linkedin.com OR site:facebook.com OR site:instagram.com OR site:x.com OR site:twitter.com OR site:tiktok.com)"),
             ("Belgelerde adın (CV, listeler, sonuçlar)", f"{n} (filetype:pdf OR filetype:doc OR filetype:docx)"),
             ("Tablolarda adın", f"{n} (filetype:xls OR filetype:xlsx OR filetype:csv)"),
+            ("Satış veri platformlarında adın", f"{n} (site:zoominfo.com OR site:rocketreach.co OR site:apollo.io OR site:signalhire.com OR site:contactout.com OR site:lusha.com)"),
             ("Forum ve sözlüklerde adın", f"{n} (site:eksisozluk.com OR site:reddit.com OR site:quora.com)"),
             ("Haber sitelerinde adın", f"{n} (haber OR news)"),
             ("Arşivlerde adın", f"{n} site:web.archive.org"),

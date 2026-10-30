@@ -73,6 +73,7 @@ The whole guide as a checklist. Copy it (to an offline document or paper) and wo
 - [ ] ★ Unlisted from Truecaller; deletion request sent to Getcontact
 - [ ] WhatsApp, Telegram and Signal privacy settings locked down
 - [ ] (If relevant) removal requested from people-search sites; DROP used if in California
+- [ ] ★ Deletion and suppression requested from sales data platforms (Apollo, Snov.io, ZoomInfo, Lusha, RocketReach)
 - [ ] Opt-outs sent to face search engines
 - [ ] Advertising IDs and personalised ads turned off
 

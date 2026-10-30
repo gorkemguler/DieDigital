@@ -26,6 +26,7 @@ As long as the source exists, a result you got removed from a search engine will
 | Spelling variants | `"First Last"` · `"Last First"` · `"F. Last"` · without accents or special characters |
 | On social media | `"First Last" site:linkedin.com` · `site:facebook.com` · `site:instagram.com` · `site:x.com` · `site:tiktok.com` |
 | In documents (CVs, lists, results) | `"First Last" filetype:pdf` · `filetype:docx` · `filetype:xlsx` |
+| On sales data platforms | `"First Last" site:zoominfo.com` · `site:rocketreach.co` · `site:apollo.io` · `site:signalhire.com` |
 | On forums | `"First Last" site:reddit.com` · local forums |
 | In official notices | `"First Last" site:gov` · your country's government domain (e.g. `site:gov.uk`, `site:gov.tr`) |
 | In archives | `"First Last" site:web.archive.org` |

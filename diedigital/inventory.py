@@ -76,6 +76,7 @@ class Inventory:
             "email": email or None,
             "privacy_email": privacy_email or (entry or {}).get("privacy_email"),
             "jurisdiction": jurisdiction or (entry or {}).get("jurisdiction"),
+            "template": (entry or {}).get("template"),
             "status": status,
             "notes": notes or None,
             "source": source,

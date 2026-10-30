@@ -16,6 +16,7 @@ Which text to use where:
 | 8 | Anonymisation request to a news site | News sites, publishers | [6](06-traces-held-by-others.md) |
 | 9 | Message to friends and family | Photos and tags | [6](06-traces-held-by-others.md) |
 | 10 | To a former employer or school | Team pages, alumni lists | [6](06-traces-held-by-others.md) |
+| 11 | Deletion and suppression request to a sales data platform | Apollo, Snov.io, ZoomInfo, Lusha, RocketReach... | [5](05-data-brokers-and-lookup-apps.md) |
 
 Turkish KVKK templates (request, reminder, complaint to the Board, search engine application) are in the [Turkish appendix](../ek-b-dilekce-ornekleri.md).
 
@@ -225,3 +226,35 @@ For a group:
 >
 > Thank you,
 > [Full name] · [email]
+
+---
+
+## 11. Deletion and suppression request to a sales data platform
+
+Covers the GDPR and US state laws together, and asks not only for deletion but for suppression, so your details aren't collected again ([chapter 5](05-data-brokers-and-lookup-apps.md) explains why).
+
+**Subject:** Erasure, objection and suppression request (GDPR Articles 15, 17 and 21 / US state privacy law)
+
+> Dear Privacy Team,
+>
+> I understand that [Company] holds a profile about me in the contact database it makes available to its customers. I did not provide this data to you.
+>
+> **Identifiers you may hold about me**
+> - Name: [Full name]
+> - Email addresses (work and personal): [email 1], [email 2]
+> - Phone numbers: [number 1], [number 2]
+> - Employer(s) and job title(s): [current and past]
+> - LinkedIn / profile URL: [link]
+>
+> **My requests**
+> 1. Tell me which personal data you hold about me, the source(s) from which you obtained it (Articles 14(2)(f) and 15(1)(g)), and the customers and other recipients to whom it has been disclosed or exported (Article 15(1)(c)).
+> 2. I object to the processing of my personal data for direct marketing, including making it available to your customers for sales outreach (Article 21(2)). Following this objection, erase all personal data concerning me (Article 17(1)(c)).
+> 3. Add my email addresses and phone numbers to your suppression list so that they are not collected, enriched or made available again. Keep only the minimum needed for that purpose.
+> 4. Notify the recipients to whom you have disclosed my data of this erasure (Article 19).
+> 5. If you are subject to the California Consumer Privacy Act or another US state privacy law, treat this as a request to delete my personal information and to opt out of its sale and sharing.
+>
+> Please respond within one month (Article 12(3) GDPR) or, where US state law applies, within 45 days, and confirm in writing once the erasure and suppression are complete. If I do not receive a satisfactory response, I will lodge a complaint with the competent supervisory authority.
+>
+> Kind regards,
+> [Date]
+> [Full name]

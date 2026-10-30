@@ -73,6 +73,7 @@ Rehberin tamamının işaretlenebilir özeti. Kendine kopyala (çevrimdışı bi
 - [ ] ★ Truecaller'dan çıkıldı, Getcontact'a KVKK talebi gönderildi
 - [ ] WhatsApp, Telegram, Signal gizlilik ayarları kapatıldı
 - [ ] (Varsa) yurt dışı veri simsarlarından kaldırma istendi
+- [ ] ★ Apollo, Snov.io, ZoomInfo, Lusha, RocketReach gibi satış veri platformlarına silme ve baskılama talebi gönderildi
 - [ ] Yüz arama motorlarına opt-out gönderildi
 - [ ] Reklam kimlikleri ve kişiselleştirilmiş reklamlar kapatıldı
 

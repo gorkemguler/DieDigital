@@ -23,6 +23,9 @@ class DomainTests(unittest.TestCase):
         self.assertEqual(cat.match("Instagram")["id"], "instagram")
         self.assertEqual(cat.match(url="https://www.amazon.com.tr/")["id"], "amazon")
         self.assertIsNone(cat.match("bilinmeyen hizmet"))
+        apollo = cat.match(url="https://app.apollo.io/")
+        self.assertEqual(apollo["template"], "data-broker-suppression")
+        self.assertIn("zoominfo", [e["id"] for e in cat.search("b2b")])
 
 
 class InventoryTests(unittest.TestCase):
@@ -86,6 +89,9 @@ class LetterTests(unittest.TestCase):
 
     def test_auto_template(self):
         self.assertEqual(letters.auto_template({"jurisdiction": "tr"}), "kvkk-silme")
+        b2b = {"jurisdiction": "eu", "template": "data-broker-suppression"}
+        self.assertEqual(letters.auto_template(b2b), "data-broker-suppression")
+        self.assertEqual(letters.auto_template(b2b, reminder=True), "gdpr-reminder")
         self.assertEqual(letters.auto_template({"jurisdiction": "eu"}, reminder=True), "gdpr-reminder")
 
     def test_all_templates_render(self):

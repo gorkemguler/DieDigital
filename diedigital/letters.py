@@ -149,4 +149,5 @@ def auto_template(account: dict | None, reminder: bool = False) -> str:
     turkish = ((account or {}).get("jurisdiction") or "").lower() == "tr"
     if reminder:
         return "kvkk-hatirlatma" if turkish else "gdpr-reminder"
-    return "kvkk-silme" if turkish else "gdpr-erasure"
+    # Katalogdaki bazı hizmetler (ör. B2B veri platformları) kendi şablonunu belirtir.
+    return (account or {}).get("template") or ("kvkk-silme" if turkish else "gdpr-erasure")

@@ -23,7 +23,7 @@ Teknik bilgi gerekmez; her adım elle yapılabilir. Türkiye'deki hizmetler, KVK
 | 2 | [İçerik temizliği](docs/02-icerik-temizligi.md) | Gönderiler, fotoğraflar, yorumlar, değerlendirmeler; platform platform |
 | 3 | [Hesapları silmek](docs/03-hesaplari-silmek.md) | Büyük platformlar, Türkiye'deki hizmetler, İYS, sahipsiz hesaplar |
 | 4 | [Arama motorları ve arşivler](docs/04-arama-motorlari-ve-arsivler.md) | Ne aranır, Google/Bing/Yandex kaldırma araçları, Wayback Machine, 5651 |
-| 5 | [Veri simsarları ve rehberler](docs/05-veri-simsarlari-ve-rehberler.md) | Getcontact, Truecaller, yüklenen rehberler, sızıntı panelleri, yüz arama |
+| 5 | [Veri simsarları ve rehberler](docs/05-veri-simsarlari-ve-rehberler.md) | Getcontact, Truecaller, Apollo/ZoomInfo gibi satış veri platformları, sızıntı panelleri, yüz arama |
 | 6 | [Başkalarının elindeki izler](docs/06-baskalarinin-elindeki-izler.md) | Arkadaşlar, aile, işyeri, okul, etkinlikler, haberler, Vikipedi, soy ağacı |
 | 7 | [Gerçek dünyaya bağlı izler](docs/07-gercek-dunya-izleri.md) | Adres, Street View, konum, Wi-Fi, akıllı cihazlar, sağlık, DNA, plaka |
 | 8 | [Hukuki haklar](docs/08-hukuki-haklar.md) | KVKK, GDPR, 5651; adım adım silme talebi ve şikâyet |

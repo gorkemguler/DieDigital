@@ -23,7 +23,7 @@ No technical knowledge needed; every step can be done by hand. Laws and services
 | 2 | [Content cleanup](docs/en/02-content-cleanup.md) | Posts, photos, comments, reviews; platform by platform |
 | 3 | [Deleting accounts](docs/en/03-deleting-accounts.md) | Major platforms, local services, marketing opt-outs, orphaned accounts |
 | 4 | [Search engines and archives](docs/en/04-search-engines-and-archives.md) | What to search for, Google/Bing/Yandex removal tools, the Wayback Machine, legal routes |
-| 5 | [Data brokers and lookup apps](docs/en/05-data-brokers-and-lookup-apps.md) | People-search sites, caller-ID apps, uploaded address books, face search |
+| 5 | [Data brokers and lookup apps](docs/en/05-data-brokers-and-lookup-apps.md) | People-search sites, sales data platforms like Apollo and ZoomInfo, caller-ID apps, face search |
 | 6 | [Traces held by others](docs/en/06-traces-held-by-others.md) | Friends, family, work, school, events, news, Wikipedia, family trees |
 | 7 | [Real-world traces](docs/en/07-real-world-traces.md) | Address, Street View, location, Wi-Fi, smart devices, health, DNA, plates |
 | 8 | [Legal rights](docs/en/08-legal-rights.md) | GDPR, UK GDPR, US state laws, KVKK; deletion requests step by step, complaints |

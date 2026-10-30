@@ -4,7 +4,11 @@
     {
       "id": "google",
       "name": "Google",
-      "domains": ["google.com", "gmail.com", "googlemail.com"],
+      "domains": [
+        "google.com",
+        "gmail.com",
+        "googlemail.com"
+      ],
       "category": "big-tech",
       "delete_url": "https://myaccount.google.com/delete-services-or-account",
       "export_url": "https://takeout.google.com",
@@ -16,7 +20,10 @@
     {
       "id": "youtube",
       "name": "YouTube",
-      "domains": ["youtube.com", "youtu.be"],
+      "domains": [
+        "youtube.com",
+        "youtu.be"
+      ],
       "category": "social",
       "delete_url": "https://myaccount.google.com/delete-services-or-account",
       "export_url": "https://takeout.google.com",
@@ -28,7 +35,11 @@
     {
       "id": "facebook",
       "name": "Facebook",
-      "domains": ["facebook.com", "fb.com", "messenger.com"],
+      "domains": [
+        "facebook.com",
+        "fb.com",
+        "messenger.com"
+      ],
       "category": "social",
       "delete_url": "https://accountscenter.facebook.com/",
       "export_url": "https://www.facebook.com/dyi",
@@ -40,7 +51,9 @@
     {
       "id": "instagram",
       "name": "Instagram",
-      "domains": ["instagram.com"],
+      "domains": [
+        "instagram.com"
+      ],
       "category": "social",
       "delete_url": "https://accountscenter.instagram.com/",
       "export_url": "https://accountscenter.instagram.com/",
@@ -52,7 +65,10 @@
     {
       "id": "threads",
       "name": "Threads",
-      "domains": ["threads.net", "threads.com"],
+      "domains": [
+        "threads.net",
+        "threads.com"
+      ],
       "category": "social",
       "delete_url": null,
       "export_url": null,
@@ -64,7 +80,9 @@
     {
       "id": "whatsapp",
       "name": "WhatsApp",
-      "domains": ["whatsapp.com"],
+      "domains": [
+        "whatsapp.com"
+      ],
       "category": "messaging",
       "delete_url": null,
       "export_url": null,
@@ -76,7 +94,10 @@
     {
       "id": "telegram",
       "name": "Telegram",
-      "domains": ["telegram.org", "t.me"],
+      "domains": [
+        "telegram.org",
+        "t.me"
+      ],
       "category": "messaging",
       "delete_url": "https://my.telegram.org/auth?to=deactivate",
       "export_url": null,
@@ -88,7 +109,10 @@
     {
       "id": "x",
       "name": "X (Twitter)",
-      "domains": ["x.com", "twitter.com"],
+      "domains": [
+        "x.com",
+        "twitter.com"
+      ],
       "category": "social",
       "delete_url": "https://x.com/settings/deactivate",
       "export_url": "https://x.com/settings/download_your_data",
@@ -100,7 +124,9 @@
     {
       "id": "linkedin",
       "name": "LinkedIn",
-      "domains": ["linkedin.com"],
+      "domains": [
+        "linkedin.com"
+      ],
       "category": "social",
       "delete_url": "https://www.linkedin.com/mypreferences/d/categories/account",
       "export_url": "https://www.linkedin.com/mypreferences/d/download-my-data",
@@ -112,7 +138,9 @@
     {
       "id": "tiktok",
       "name": "TikTok",
-      "domains": ["tiktok.com"],
+      "domains": [
+        "tiktok.com"
+      ],
       "category": "social",
       "delete_url": null,
       "export_url": null,
@@ -124,7 +152,9 @@
     {
       "id": "snapchat",
       "name": "Snapchat",
-      "domains": ["snapchat.com"],
+      "domains": [
+        "snapchat.com"
+      ],
       "category": "social",
       "delete_url": "https://accounts.snapchat.com/accounts/delete_account",
       "export_url": "https://accounts.snapchat.com/accounts/downloadmydata",
@@ -136,7 +166,10 @@
     {
       "id": "reddit",
       "name": "Reddit",
-      "domains": ["reddit.com", "redd.it"],
+      "domains": [
+        "reddit.com",
+        "redd.it"
+      ],
       "category": "social",
       "delete_url": "https://www.reddit.com/settings/account",
       "export_url": "https://www.reddit.com/settings/data-request",
@@ -149,7 +182,11 @@
     {
       "id": "discord",
       "name": "Discord",
-      "domains": ["discord.com", "discord.gg", "discordapp.com"],
+      "domains": [
+        "discord.com",
+        "discord.gg",
+        "discordapp.com"
+      ],
       "category": "messaging",
       "delete_url": null,
       "export_url": null,
@@ -161,7 +198,10 @@
     {
       "id": "pinterest",
       "name": "Pinterest",
-      "domains": ["pinterest.com", "pin.it"],
+      "domains": [
+        "pinterest.com",
+        "pin.it"
+      ],
       "category": "social",
       "delete_url": null,
       "export_url": null,
@@ -173,7 +213,9 @@
     {
       "id": "tumblr",
       "name": "Tumblr",
-      "domains": ["tumblr.com"],
+      "domains": [
+        "tumblr.com"
+      ],
       "category": "social",
       "delete_url": "https://www.tumblr.com/account/delete",
       "export_url": null,
@@ -185,7 +227,9 @@
     {
       "id": "quora",
       "name": "Quora",
-      "domains": ["quora.com"],
+      "domains": [
+        "quora.com"
+      ],
       "category": "social",
       "delete_url": null,
       "export_url": null,
@@ -197,7 +241,9 @@
     {
       "id": "medium",
       "name": "Medium",
-      "domains": ["medium.com"],
+      "domains": [
+        "medium.com"
+      ],
       "category": "social",
       "delete_url": "https://medium.com/me/settings",
       "export_url": "https://medium.com/me/settings",
@@ -209,7 +255,16 @@
     {
       "id": "microsoft",
       "name": "Microsoft (Outlook, Skype, Xbox, OneDrive)",
-      "domains": ["microsoft.com", "live.com", "outlook.com", "hotmail.com", "msn.com", "skype.com", "xbox.com", "onedrive.com"],
+      "domains": [
+        "microsoft.com",
+        "live.com",
+        "outlook.com",
+        "hotmail.com",
+        "msn.com",
+        "skype.com",
+        "xbox.com",
+        "onedrive.com"
+      ],
       "category": "big-tech",
       "delete_url": "https://account.live.com/closeaccount.aspx",
       "export_url": "https://account.microsoft.com/privacy",
@@ -221,7 +276,11 @@
     {
       "id": "apple",
       "name": "Apple ID / iCloud",
-      "domains": ["apple.com", "icloud.com", "me.com"],
+      "domains": [
+        "apple.com",
+        "icloud.com",
+        "me.com"
+      ],
       "category": "big-tech",
       "delete_url": "https://privacy.apple.com",
       "export_url": "https://privacy.apple.com",
@@ -233,7 +292,15 @@
     {
       "id": "amazon",
       "name": "Amazon",
-      "domains": ["amazon.com", "amazon.com.tr", "amazon.de", "amazon.co.uk", "audible.com", "goodreads.com", "twitch.tv"],
+      "domains": [
+        "amazon.com",
+        "amazon.com.tr",
+        "amazon.de",
+        "amazon.co.uk",
+        "audible.com",
+        "goodreads.com",
+        "twitch.tv"
+      ],
       "category": "shopping",
       "delete_url": null,
       "export_url": null,
@@ -245,7 +312,10 @@
     {
       "id": "yahoo",
       "name": "Yahoo",
-      "domains": ["yahoo.com", "flickr.com"],
+      "domains": [
+        "yahoo.com",
+        "flickr.com"
+      ],
       "category": "big-tech",
       "delete_url": "https://edit.yahoo.com/config/delete_user",
       "export_url": null,
@@ -257,7 +327,9 @@
     {
       "id": "dropbox",
       "name": "Dropbox",
-      "domains": ["dropbox.com"],
+      "domains": [
+        "dropbox.com"
+      ],
       "category": "cloud",
       "delete_url": "https://www.dropbox.com/account/delete",
       "export_url": null,
@@ -269,7 +341,9 @@
     {
       "id": "spotify",
       "name": "Spotify",
-      "domains": ["spotify.com"],
+      "domains": [
+        "spotify.com"
+      ],
       "category": "media",
       "delete_url": "https://support.spotify.com/close-account/",
       "export_url": "https://www.spotify.com/account/privacy/",
@@ -281,7 +355,9 @@
     {
       "id": "netflix",
       "name": "Netflix",
-      "domains": ["netflix.com"],
+      "domains": [
+        "netflix.com"
+      ],
       "category": "media",
       "delete_url": null,
       "export_url": "https://www.netflix.com/account/getmyinfo",
@@ -294,7 +370,10 @@
     {
       "id": "github",
       "name": "GitHub",
-      "domains": ["github.com", "github.io"],
+      "domains": [
+        "github.com",
+        "github.io"
+      ],
       "category": "developer",
       "delete_url": "https://github.com/settings/admin",
       "export_url": "https://github.com/settings/admin",
@@ -307,7 +386,9 @@
     {
       "id": "gitlab",
       "name": "GitLab",
-      "domains": ["gitlab.com"],
+      "domains": [
+        "gitlab.com"
+      ],
       "category": "developer",
       "delete_url": "https://gitlab.com/-/profile/account",
       "export_url": null,
@@ -319,7 +400,13 @@
     {
       "id": "stackoverflow",
       "name": "Stack Overflow / Stack Exchange",
-      "domains": ["stackoverflow.com", "stackexchange.com", "superuser.com", "serverfault.com", "askubuntu.com"],
+      "domains": [
+        "stackoverflow.com",
+        "stackexchange.com",
+        "superuser.com",
+        "serverfault.com",
+        "askubuntu.com"
+      ],
       "category": "developer",
       "delete_url": null,
       "export_url": null,
@@ -331,7 +418,9 @@
     {
       "id": "gravatar",
       "name": "Gravatar",
-      "domains": ["gravatar.com"],
+      "domains": [
+        "gravatar.com"
+      ],
       "category": "identity",
       "delete_url": "https://wordpress.com/me/account/close",
       "export_url": null,
@@ -343,7 +432,9 @@
     {
       "id": "wordpress",
       "name": "WordPress.com",
-      "domains": ["wordpress.com"],
+      "domains": [
+        "wordpress.com"
+      ],
       "category": "web",
       "delete_url": "https://wordpress.com/me/account/close",
       "export_url": null,
@@ -355,7 +446,9 @@
     {
       "id": "paypal",
       "name": "PayPal",
-      "domains": ["paypal.com"],
+      "domains": [
+        "paypal.com"
+      ],
       "category": "finance",
       "delete_url": null,
       "export_url": null,
@@ -367,7 +460,10 @@
     {
       "id": "airbnb",
       "name": "Airbnb",
-      "domains": ["airbnb.com", "airbnb.com.tr"],
+      "domains": [
+        "airbnb.com",
+        "airbnb.com.tr"
+      ],
       "category": "travel",
       "delete_url": null,
       "export_url": null,
@@ -379,7 +475,9 @@
     {
       "id": "booking",
       "name": "Booking.com",
-      "domains": ["booking.com"],
+      "domains": [
+        "booking.com"
+      ],
       "category": "travel",
       "delete_url": null,
       "export_url": null,
@@ -391,7 +489,9 @@
     {
       "id": "uber",
       "name": "Uber",
-      "domains": ["uber.com"],
+      "domains": [
+        "uber.com"
+      ],
       "category": "travel",
       "delete_url": null,
       "export_url": null,
@@ -403,7 +503,10 @@
     {
       "id": "zoom",
       "name": "Zoom",
-      "domains": ["zoom.us", "zoom.com"],
+      "domains": [
+        "zoom.us",
+        "zoom.com"
+      ],
       "category": "work",
       "delete_url": null,
       "export_url": null,
@@ -415,7 +518,9 @@
     {
       "id": "truecaller",
       "name": "Truecaller",
-      "domains": ["truecaller.com"],
+      "domains": [
+        "truecaller.com"
+      ],
       "category": "phone-directory",
       "delete_url": "https://www.truecaller.com/unlisting",
       "export_url": null,
@@ -427,7 +532,9 @@
     {
       "id": "getcontact",
       "name": "Getcontact",
-      "domains": ["getcontact.com"],
+      "domains": [
+        "getcontact.com"
+      ],
       "category": "phone-directory",
       "delete_url": null,
       "export_url": null,
@@ -439,7 +546,9 @@
     {
       "id": "archive-org",
       "name": "Internet Archive (Wayback Machine)",
-      "domains": ["archive.org"],
+      "domains": [
+        "archive.org"
+      ],
       "category": "archive",
       "delete_url": null,
       "export_url": null,
@@ -452,7 +561,9 @@
     {
       "id": "trendyol",
       "name": "Trendyol",
-      "domains": ["trendyol.com"],
+      "domains": [
+        "trendyol.com"
+      ],
       "category": "shopping",
       "delete_url": null,
       "export_url": null,
@@ -464,7 +575,9 @@
     {
       "id": "hepsiburada",
       "name": "Hepsiburada",
-      "domains": ["hepsiburada.com"],
+      "domains": [
+        "hepsiburada.com"
+      ],
       "category": "shopping",
       "delete_url": null,
       "export_url": null,
@@ -476,7 +589,9 @@
     {
       "id": "n11",
       "name": "n11",
-      "domains": ["n11.com"],
+      "domains": [
+        "n11.com"
+      ],
       "category": "shopping",
       "delete_url": null,
       "export_url": null,
@@ -488,7 +603,9 @@
     {
       "id": "sahibinden",
       "name": "sahibinden.com",
-      "domains": ["sahibinden.com"],
+      "domains": [
+        "sahibinden.com"
+      ],
       "category": "classifieds",
       "delete_url": null,
       "export_url": null,
@@ -500,7 +617,9 @@
     {
       "id": "getir",
       "name": "Getir",
-      "domains": ["getir.com"],
+      "domains": [
+        "getir.com"
+      ],
       "category": "shopping",
       "delete_url": null,
       "export_url": null,
@@ -512,7 +631,9 @@
     {
       "id": "yemeksepeti",
       "name": "Yemeksepeti",
-      "domains": ["yemeksepeti.com"],
+      "domains": [
+        "yemeksepeti.com"
+      ],
       "category": "shopping",
       "delete_url": null,
       "export_url": null,
@@ -524,7 +645,9 @@
     {
       "id": "dolap",
       "name": "Dolap",
-      "domains": ["dolap.com"],
+      "domains": [
+        "dolap.com"
+      ],
       "category": "classifieds",
       "delete_url": null,
       "export_url": null,
@@ -536,7 +659,9 @@
     {
       "id": "eksisozluk",
       "name": "Ekşi Sözlük",
-      "domains": ["eksisozluk.com"],
+      "domains": [
+        "eksisozluk.com"
+      ],
       "category": "forum",
       "delete_url": null,
       "export_url": null,
@@ -548,7 +673,9 @@
     {
       "id": "spokeo",
       "name": "Spokeo",
-      "domains": ["spokeo.com"],
+      "domains": [
+        "spokeo.com"
+      ],
       "category": "data-broker",
       "delete_url": "https://www.spokeo.com/optout",
       "export_url": null,
@@ -560,7 +687,12 @@
     {
       "id": "peopleconnect",
       "name": "PeopleConnect (Intelius, TruthFinder, Instant Checkmate)",
-      "domains": ["intelius.com", "truthfinder.com", "instantcheckmate.com", "peopleconnect.us"],
+      "domains": [
+        "intelius.com",
+        "truthfinder.com",
+        "instantcheckmate.com",
+        "peopleconnect.us"
+      ],
       "category": "data-broker",
       "delete_url": "https://suppression.peopleconnect.us/login",
       "export_url": null,
@@ -572,7 +704,9 @@
     {
       "id": "truepeoplesearch",
       "name": "TruePeopleSearch",
-      "domains": ["truepeoplesearch.com"],
+      "domains": [
+        "truepeoplesearch.com"
+      ],
       "category": "data-broker",
       "delete_url": "https://www.truepeoplesearch.com/removal",
       "export_url": null,
@@ -584,7 +718,9 @@
     {
       "id": "fastpeoplesearch",
       "name": "FastPeopleSearch",
-      "domains": ["fastpeoplesearch.com"],
+      "domains": [
+        "fastpeoplesearch.com"
+      ],
       "category": "data-broker",
       "delete_url": "https://www.fastpeoplesearch.com/removal",
       "export_url": null,
@@ -596,7 +732,9 @@
     {
       "id": "pimeyes",
       "name": "PimEyes",
-      "domains": ["pimeyes.com"],
+      "domains": [
+        "pimeyes.com"
+      ],
       "category": "face-search",
       "delete_url": "https://pimeyes.com/en/opt-out-request-form",
       "export_url": null,
@@ -604,6 +742,186 @@
       "difficulty": "medium",
       "jurisdiction": "eu",
       "notes": "Yüz tanıma ile fotoğraflarını bulan arama motoru. Opt-out formu yüzünün sonuçlardan çıkarılmasını ister; kaynak sayfalardaki fotoğraflar yine de oradadır."
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo.io",
+      "domains": [
+        "apollo.io"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "snovio",
+      "name": "Snov.io",
+      "domains": [
+        "snov.io"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "zoominfo",
+      "name": "ZoomInfo",
+      "domains": [
+        "zoominfo.com"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "lusha",
+      "name": "Lusha",
+      "domains": [
+        "lusha.com"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "rocketreach",
+      "name": "RocketReach",
+      "domains": [
+        "rocketreach.co"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter.io",
+      "domains": [
+        "hunter.io"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "contactout",
+      "name": "ContactOut",
+      "domains": [
+        "contactout.com"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "signalhire",
+      "name": "SignalHire",
+      "domains": [
+        "signalhire.com"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "seamless",
+      "name": "Seamless.AI",
+      "domains": [
+        "seamless.ai"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "kaspr",
+      "name": "Kaspr",
+      "domains": [
+        "kaspr.io"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "cognism",
+      "name": "Cognism",
+      "domains": [
+        "cognism.com"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
+    },
+    {
+      "id": "uplead",
+      "name": "UpLead",
+      "domains": [
+        "uplead.com"
+      ],
+      "category": "b2b-data",
+      "delete_url": null,
+      "export_url": null,
+      "grace_days": null,
+      "difficulty": "medium",
+      "jurisdiction": "eu",
+      "template": "data-broker-suppression",
+      "notes": "Satış ve işe alım ekiplerine kişi verisi (iş e-postası, telefon, unvan) satan B2B platform. Altbilgideki 'Privacy' / 'Do Not Sell' / 'Opt-out' bağlantısından kaldırma formunu kullan; yoksa gizlilik adresine silme ve baskılama talebi gönder (şablon: data-broker-suppression). Sadece silme değil baskılama iste; yoksa veri yeniden toplanır."
     }
   ]
 }

@@ -16,7 +16,7 @@ diedigital --help
 
 Wherever you see `diedigital` below, `python3 -m diedigital` works too.
 
-> **Language:** Commands and options are in English, but the tool's messages are currently in Turkish. The letter templates include English GDPR versions (`gdpr-erasure`, `gdpr-reminder`, `archive-removal`), which are chosen automatically for any account whose `jurisdiction` isn't `tr`.
+> **Language:** Commands and options are in English, but the tool's messages are currently in Turkish. The letter templates include English GDPR versions (`gdpr-erasure`, `gdpr-reminder`, `archive-removal`, `data-broker-suppression`), which are chosen automatically for any account whose `jurisdiction` isn't `tr`; sales data platforms such as Apollo or ZoomInfo get `data-broker-suppression`.
 
 Every command that deletes runs in **dry-run mode** by default. Real changes need `--execute` (requests and wipe tools) or `--armed` / `DEADMAN_ARMED=true` (dead man's switch).
 

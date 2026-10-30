@@ -217,7 +217,7 @@ def _letter(args, inv: Inventory | None = None):
     elif getattr(args, "service", None):
         entry = Catalog.load().match(args.service) or {}
         account = {"service": entry.get("name", args.service), "jurisdiction": entry.get("jurisdiction"),
-                   "privacy_email": entry.get("privacy_email")}
+                   "privacy_email": entry.get("privacy_email"), "template": entry.get("template")}
     template = args.template or letters.auto_template(account, getattr(args, "reminder", False))
     subject, body = letters.render(template, profile, account, urls=getattr(args, "url", None) or [])
     return account, subject, body

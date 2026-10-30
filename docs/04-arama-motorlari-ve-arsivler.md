@@ -26,6 +26,7 @@ Kaynak durdukça arama motorundan kaldırılan sonuç geri gelir. İstisna: kayn
 | Adının farklı yazılışları | `"Ad Soyad"` · `"Soyad Ad"` · `"A. Soyad"` · Türkçe karaktersiz yazılış (`"Ayse Yilmaz"` gibi) |
 | Sosyal medyada | `"Ad Soyad" site:linkedin.com` · `site:facebook.com` · `site:instagram.com` · `site:x.com` · `site:tiktok.com` |
 | Belgelerde (CV, listeler, sonuçlar) | `"Ad Soyad" filetype:pdf` · `filetype:docx` · `filetype:xlsx` |
+| Satış veri platformlarında | `"Ad Soyad" site:zoominfo.com` · `site:rocketreach.co` · `site:apollo.io` · `site:signalhire.com` |
 | Forum ve sözlüklerde | `"Ad Soyad" site:eksisozluk.com` · `site:reddit.com` |
 | Resmî ilanlarda | `"Ad Soyad" site:gov.tr` · `site:ilan.gov.tr` |
 | Arşivde | `"Ad Soyad" site:web.archive.org` |

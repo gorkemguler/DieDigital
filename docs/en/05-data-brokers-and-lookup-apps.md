@@ -1,6 +1,6 @@
 # 5. Data brokers, lookup apps and face search engines
 
-This chapter is about places that collect data about you even though you never opened an account with them.
+This chapter is about places that collect data about you even though you never opened an account with them: caller-ID apps, people-search sites, sales and recruiting data platforms, face search engines.
 
 ## 5.1 Caller-ID and contact lookup apps
 
@@ -53,11 +53,41 @@ If you've lived in the US, or your address or phone number was ever recorded the
 
 Large marketing data companies, the marketing arms of credit reference agencies, and advertising networks are all covered by the GDPR (and UK GDPR). Send a GDPR deletion request to the contact listed in their privacy notice ([Appendix B](appendix-b-letter-templates.md)). The template asks both for deletion and for an end to marketing and profiling (GDPR art. 21), and asks where they got your data, which lets you dry up the original source.
 
-## 5.4 Credit reference agencies
+## 5.4 Sales and recruiting data platforms (Apollo, Snov.io, ZoomInfo...)
+
+These platforms sell contact databases to sales, marketing and recruiting teams: your name, job title, employer, work email and often your mobile number. You're in them even if you've never signed up. They build profiles by scraping LinkedIn and company websites, from email signatures in their users' inboxes, through browser extensions, and from data partners. Once your work email and phone are in, they keep resurfacing in cold emails and sales calls from companies you've never heard of.
+
+The main ones: **Apollo.io, Snov.io, ZoomInfo, Lusha, RocketReach, Hunter.io, ContactOut, SignalHire, Seamless.AI, Kaspr, Cognism, UpLead.**
+
+**Are you in there?**
+
+- Try a search engine: `"First Last" (site:zoominfo.com OR site:rocketreach.co OR site:apollo.io OR site:signalhire.com OR site:contactout.com OR site:lusha.com)`. Some publish public profile pages.
+- Opening an account on these platforms to look yourself up gives them fresh data. Send an access and deletion request instead and let them tell you what they hold. If you really need to look, use a free trial with an email alias and delete the account afterwards.
+
+**How to get removed**
+
+1. Look in the site footer for "Privacy", "Do Not Sell or Share My Personal Information", "Opt-out" or "Remove my profile". Most have a removal or privacy request form.
+2. If there's no form, email the address in their privacy policy (usually `privacy@...`) using template 11 in [Appendix B](appendix-b-letter-templates.md). It covers GDPR and US state laws together.
+3. **Ask for suppression, not just deletion.** If they only delete, their next crawl will collect you again. Ask for your email addresses and phone numbers to be added to a suppression (do-not-contact) list as well. They may need to keep a minimal record for that, such as a hashed email.
+4. **Ask for the source:** Where did they get your data, and who did they sell it to? The answer points to the real leak: a contact who uses a browser extension, an event attendee list, an old employer's website.
+5. **Cover every identifier:** These platforms may keep your work and personal emails, and old and new numbers, as separate records. List all of them in the request.
+6. Check again in 3-6 months; these databases are constantly refreshed.
+
+**Dry up the source**
+
+- On LinkedIn, set your email and phone visibility to "Only you" and turn off your public profile ([chapter 2](02-content-cleanup.md)).
+- Remove your mobile number from your email signature. The signature on every email you send can end up in these databases through the extensions your recipients use.
+- Team pages on your company's website and conference attendee lists ([chapter 6](06-traces-held-by-others.md)).
+- Tools like Hunter.io guess your company's email format (first.last@company.com). You can't stop that, but you can object to being kept as an individual contact record.
+- When you leave a job your work email is closed, but the records in these databases stay; send the request anyway.
+
+> **With the tool:** `diedigital catalog b2b` lists these platforms; when you add one to your inventory, `letters` automatically uses the deletion-and-suppression template (`data-broker-suppression`) for it.
+
+## 5.5 Credit reference agencies
 
 Credit files (Experian, Equifax, TransUnion and national credit bureaus) are kept on a legal basis and can't be deleted. You can request a copy, have errors corrected, and opt out of their marketing use.
 
-## 5.5 Leaked-data lookup services
+## 5.6 Leaked-data lookup services
 
 In several countries, illegal panels and messaging-app bots let people look up names, national ID numbers, addresses and family details from leaked databases. You can't get data deleted from them. What you can do:
 
@@ -65,7 +95,7 @@ In several countries, illegal panels and messaging-app bots let people look up n
 - Report such sites and bots to your data protection authority or the police.
 - Be wary of "your bank is calling" or "your parcel" scams: a caller who knows your name, address and ID number is not proof that they're from that institution.
 
-## 5.6 Face search engines
+## 5.7 Face search engines
 
 Services that find your photos online with facial recognition:
 
@@ -74,7 +104,7 @@ Services that find your photos online with facial recognition:
 
 Try one yourself first: searching a face search engine with your photo is the fastest way to see where you appear. But remember that the photo you upload goes to that service too; choose one that reveals as little as possible.
 
-## 5.7 Advertising IDs and tracking
+## 5.8 Advertising IDs and tracking
 
 These don't make you disappear, but they slow down new profiles being built about you:
 
@@ -90,5 +120,6 @@ These don't make you disappear, but they slow down new profiles being built abou
 - [ ] Uploaded address books deleted from every platform
 - [ ] Two-factor authentication on for government and bank accounts
 - [ ] (If relevant) removal requested from US people-search sites
+- [ ] Deletion and suppression requested from sales data platforms like Apollo, Snov.io and ZoomInfo
 - [ ] Face search engines checked; opt-out requests sent
 - [ ] Advertising IDs and personalised ads turned off

@@ -1,6 +1,6 @@
 # 5. Veri simsarları, rehber uygulamaları ve yüz arama motorları
 
-Bu bölüm, hiç hesap açmadığın hâlde hakkında veri toplayan yerlerle ilgili.
+Bu bölüm, hiç hesap açmadığın hâlde hakkında veri toplayan yerlerle ilgili: rehber uygulamaları, kişi arama siteleri, satış ve işe alım veri platformları, yüz arama motorları.
 
 ## 5.1 Türkiye'deki asıl sorun: rehber uygulamaları
 
@@ -60,11 +60,41 @@ ABD'de yaşadıysan, orada adresin veya telefonun kaydedildiyse, kişi arama sit
 
 AB'de büyük pazarlama veri şirketleri, kredi derecelendirme şirketlerinin pazarlama birimleri ve reklam ağları da GDPR kapsamındadır. Gizlilik sayfalarındaki başvuru adreslerine GDPR silme dilekçesi gönder ([Ek B](ek-b-dilekce-ornekleri.md)). Dilekçe hem silmeyi hem de pazarlama ve profilleme amaçlı işlemeye itirazı (GDPR md. 21) içeriyor.
 
-## 5.5 Kredi büroları
+## 5.5 Satış ve işe alım veri platformları (Apollo, Snov.io, ZoomInfo...)
+
+Bu platformlar satış, pazarlama ve işe alım ekiplerine kişi veritabanı satar: adın, unvanın, şirketin, iş e-postan ve çoğu zaman cep telefonun. Hiç üye olmasan da oradasındır. Veriyi LinkedIn'i ve şirket sitelerini tarayarak, kullanıcılarının e-posta kutularındaki imzalardan, tarayıcı eklentilerinden ve veri ortaklarından toplarlar. İş e-postan ve telefonun bir kez buraya girdiğinde, tanımadığın şirketlerin satış e-postalarında ve aramalarında yeniden karşına çıkar.
+
+Başlıcaları: **Apollo.io, Snov.io, ZoomInfo, Lusha, RocketReach, Hunter.io, ContactOut, SignalHire, Seamless.AI, Kaspr, Cognism, UpLead.**
+
+**Orada mısın?**
+
+- Arama motorunda dene: `"Ad Soyad" (site:zoominfo.com OR site:rocketreach.co OR site:apollo.io OR site:signalhire.com OR site:contactout.com OR site:lusha.com)`. Bazıları herkese açık profil sayfası yayımlar.
+- Kendini aramak için bu platformlarda hesap açmak, onlara yeni veri vermek demektir. Bunun yerine doğrudan erişim ve silme talebi gönder; ne tuttuklarını onlar söylesin. Mutlaka bakman gerekiyorsa takma ad e-postayla ücretsiz deneme hesabı aç ve işin bitince sil.
+
+**Nasıl kaldırılır?**
+
+1. Sitenin altbilgisinde "Privacy", "Do Not Sell or Share My Personal Information", "Opt-out" ya da "Remove my profile" bağlantılarını ara. Çoğunda bir kaldırma veya gizlilik talep formu vardır.
+2. Form yoksa gizlilik politikasındaki adrese (genelde `privacy@...`) talep gönder ([Ek B](ek-b-dilekce-ornekleri.md), 11. metin). Bu şirketlerin çoğu yurt dışındadır ve AB'deki kişilere hizmet verdiği için GDPR'a tabidir; İngilizce GDPR metni genellikle işe yarar.
+3. **Sadece silme değil, baskılama iste.** Yalnızca silerlerse verini bir sonraki taramada yeniden toplarlar. Silmenin yanında e-posta adresinin ve telefonunun bir "baskılama listesine" (suppression / do-not-contact) eklenmesini iste. Bunun için asgari bir kayıt tutmalarına (ör. e-postanın şifrelenmiş özeti) izin vermen gerekebilir.
+4. **Kaynağı sor:** Veriyi nereden aldılar, kimlere sattılar? Cevap sana asıl kaynağı gösterir: bir tarayıcı eklentisi kullanan bir tanıdık, bir etkinliğin katılımcı listesi, eski bir işverenin sitesi.
+5. **Her tanımlayıcı için ayrı yap:** Bu platformlar iş ve kişisel e-postalarını, eski ve yeni numaralarını ayrı kayıtlar olarak tutabilir. Talebe hepsini yaz.
+6. 3-6 ay sonra tekrar kontrol et; bu veritabanları sürekli yenilenir.
+
+**Kaynağı kurut:**
+
+- LinkedIn'de e-posta ve telefon görünürlüğünü "sadece ben" yap, herkese açık profili kapat ([2. bölüm](02-icerik-temizligi.md)).
+- E-posta imzandan cep telefonunu çıkar. Gönderdiğin her e-postanın imzası, alıcının kullandığı eklentiler yoluyla bu veritabanlarına girebilir.
+- Şirket sitesindeki ekip sayfaları ve konferans katılımcı listeleri ([6. bölüm](06-baskalarinin-elindeki-izler.md)).
+- Hunter.io gibi araçlar şirketinin e-posta biçimini (ad.soyad@sirket.com) tahmin eder. Bunu engelleyemezsin, ama adının bir kişi kaydı olarak tutulmasına itiraz edebilirsin.
+- İşten ayrılınca iş e-postan kapanır ama bu veritabanlarındaki kayıt kalır; ayrılmadan önce ya da sonra yine talep gönder.
+
+> **Araçla:** `diedigital catalog b2b` bu platformları listeler; envantere eklediğinde `letters` onlar için otomatik olarak silme ve baskılama şablonunu (`data-broker-suppression`) kullanır.
+
+## 5.6 Kredi büroları
 
 Türkiye'de Kredi Kayıt Bürosu (KKB / Findeks) kayıtları yasal dayanakla tutulur, silinmez. KVKK md. 11 ile hangi verilerinin tutulduğunu öğrenebilir, yanlışsa düzelttirebilirsin.
 
-## 5.6 Yüz arama motorları
+## 5.7 Yüz arama motorları
 
 Yüz tanıma ile internetteki fotoğraflarını bulan servisler:
 
@@ -73,7 +103,7 @@ Yüz tanıma ile internetteki fotoğraflarını bulan servisler:
 
 Önce kendin dene: bir yüz arama motorunda fotoğrafınla arama yapmak, nerelerde göründüğünü en hızlı gösteren yoldur. Ama bunun için yüklediğin fotoğrafın da o servise gittiğini unutma; en az bilgi içeren bir fotoğraf seç.
 
-## 5.7 Reklam kimlikleri ve izleme
+## 5.8 Reklam kimlikleri ve izleme
 
 Bunlar seni "kaybettirmez" ama hakkında yeni profil oluşmasını yavaşlatır:
 
@@ -89,5 +119,6 @@ Bunlar seni "kaybettirmez" ama hakkında yeni profil oluşmasını yavaşlatır:
 - [ ] Yüklediğim rehberler tüm platformlardan silindi
 - [ ] e-Devlet ve banka hesaplarında iki adımlı doğrulama açık
 - [ ] (Varsa) yurt dışı veri simsarlarından kaldırma istendi
+- [ ] Apollo, Snov.io, ZoomInfo gibi satış veri platformlarına silme ve baskılama talebi gönderildi
 - [ ] Yüz arama motorlarında arandı, opt-out talepleri gönderildi
 - [ ] Reklam kimlikleri ve kişiselleştirilmiş reklamlar kapatıldı
